@@ -29,6 +29,7 @@ This application is a note taker that can be used to write and save notes. This 
 # Usage
 
 This application requires the following npm packages:
+- express/ annalee 
 
 - 
 
