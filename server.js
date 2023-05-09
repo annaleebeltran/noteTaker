@@ -18,7 +18,7 @@ app.use("/", html);
 
 // Listener PORT
 app.listen(PORT, () => {
-  console.log(`App listening on PORT: ${PORT}`);
+  console.log(`App listening on http://localhost:${PORT}`);
 });
 
 module.exports = app;

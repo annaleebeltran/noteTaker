@@ -30,7 +30,7 @@ app.post("/api/notes", (req, res) => {
 
         writetoFile("./db/db.json", JSON.stringify(dataNotes));
         res.json(dataNotes);
-    }
+    });
 });
 
 // Delete Api Notes Request
@@ -45,4 +45,6 @@ app.delete("/api/notes/:id", (req, res) => {
         writetoFile("./db/db.json", JSON.stringify(dataNotes));
         res.json(dataNotes);
     });
-}
+});
+
+module.exports = app;
