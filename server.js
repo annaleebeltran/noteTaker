@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware, Data Parsing
 app.use(express.static("public"));
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 
 // Routes
