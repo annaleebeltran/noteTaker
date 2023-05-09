@@ -33,8 +33,9 @@ This application requires the following npm packages:
 
 - 
 
-![alt text](./)
+![alt text](./assets/exampleNT.png)
 
 # URL
 
-This link will demostrate the user on how to use the application.
+This link will take the user to the deployed application: https://nameless-bayou-23189.herokuapp.com/
+
